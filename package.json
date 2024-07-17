@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "taleind",
+  "main": "index.js",
+  "scripts": {
+    "build-css":"tailwindcss build src/style.css -o public/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}

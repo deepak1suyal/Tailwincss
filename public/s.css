@@ -1,0 +1,40 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the biography section */
+#about {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the resume section */
+#resume {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Style the contact section */
+#contact {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Add hover effect to links */
+a:hover {
+    color: #007bff;
+}
